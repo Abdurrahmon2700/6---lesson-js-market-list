@@ -1,0 +1,108 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/img/market.png');
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1000px;
+  padding: 15px;
+}
+
+.wrapper__all {
+  width: 840px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  height: 90vh;
+}
+.wrapper__input {
+  width: 200px;
+  background-color: #F7BC0F;
+  border-radius: 10px;
+  padding: 20px 12px;
+}
+
+#productName {
+  width: 170px;
+  height: 25px;
+  border-color: #F7BC0F;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#productName:focus {
+  outline: none;
+}
+
+#category {
+  width: 170px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#add {
+  
+}
+
+.wrapper__lists {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  width: 170px;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: #F7BC0F;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  position: relative;
+}
+
+#fruits {
+  color: green;
+}
+
+#vegetables {
+  color: red;
+  
+}
+
+#melonproduct {
+  color: brown
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+button {
+  color: #fff;
+  border: none;
+  background-color: #5AC3B4;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.clear__button {
+  position: absolute;
+  bottom: 20px;
+}
