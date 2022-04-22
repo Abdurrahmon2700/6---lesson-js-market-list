@@ -50,9 +50,6 @@ body {
   margin: 10px 0;
 }
 
-#add {
-  
-}
 
 .wrapper__lists {
   width: 550px;
@@ -70,8 +67,15 @@ body {
   position: relative;
 }
 
+#checkbox{
+  
+}
 #fruits {
   color: green;
+}
+.listfruit, .listveget,
+.listmelon {
+  list-style: none;
 }
 
 #vegetables {
